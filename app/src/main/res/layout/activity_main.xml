@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:fcf="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/bg"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:id="@+id/title_rel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:text="我勒个趣"
+            android:textColor="@color/red"
+            android:textSize="18sp"
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/line"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/image_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+
+        <LinearLayout
+            android:id="@+id/lin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <at.technikum.mti.fancycoverflow.FancyCoverFlow
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="100dp"
+                android:id="@+id/fancyCoverFlow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                fcf:actionDistance="auto"
+                fcf:maxRotation="0"
+                fcf:paddingEnd="10dp"
+                fcf:scaleDownGravity="0.1"
+                fcf:unselectedAlpha="0.3"
+                fcf:unselectedSaturation="0.0"
+                fcf:unselectedScale="0.8"
+                />
+
+            <TextView
+                android:text="1/10"
+                android:textColor="@color/grey3"
+                android:gravity="center"
+                android:id="@+id/page"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-80dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/mrth_dot"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+
+
+
+

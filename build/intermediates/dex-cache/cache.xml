@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\世福\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\Android_studio_work\QWCoverFlow\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-e0dfb4b5772e4b2afe8ee82a2e3a89d459354437.jar" />
+    </item>
+    <item
+        jar="D:\Android_studio_work\QWCoverFlow\app\build\intermediates\exploded-aar\QWCoverFlow\library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c1f2677ef986f1af396728b678152aa840be3592">
+        <dex dex="D:\Android_studio_work\QWCoverFlow\app\build\intermediates\pre-dexed\debug\classes-46bf0b588f59277397c7622bb50917fea6833169.jar" />
+    </item>
+    <item
+        jar="D:\worktools\android_studio_sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="D:\Android_studio_work\QWCoverFlow\app\build\intermediates\pre-dexed\debug\support-annotations-23.3.0-c77c791b5ff03967cf59ab844b8ebe00eeeba5be.jar" />
+    </item>
+    <item
+        jar="D:\Android_studio_work\QWCoverFlow\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="D:\Android_studio_work\QWCoverFlow\app\build\intermediates\pre-dexed\debug\classes-a4754b66ab0250d4f270c26869e569887a098d2c.jar" />
+    </item>
+    <item
+        jar="D:\Android_studio_work\QWCoverFlow\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="D:\Android_studio_work\QWCoverFlow\app\build\intermediates\pre-dexed\debug\classes-c778d26a0ae894981648f2f3fa0e29fd4cdfd05f.jar" />
+    </item>
+    <item
+        jar="D:\Android_studio_work\QWCoverFlow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="D:\Android_studio_work\QWCoverFlow\app\build\intermediates\pre-dexed\debug\internal_impl-23.3.0-ad570c4e221ef441123974756727fb65caf96c89.jar" />
+    </item>
+    <item
+        jar="D:\Android_studio_work\QWCoverFlow\app\build\intermediates\exploded-aar\com.bigkoo\svprogresshud\1.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="45cca9f5fd0386ff5f7a51fcfc8e2c42df4798e4">
+        <dex dex="D:\Android_studio_work\QWCoverFlow\app\build\intermediates\pre-dexed\debug\classes-eb848c2f0dae7ec25f4d3dcc5f10d76b309b901d.jar" />
+    </item>
+    <item
+        jar="D:\Android_studio_work\QWCoverFlow\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="D:\Android_studio_work\QWCoverFlow\app\build\intermediates\pre-dexed\debug\classes-7a1b45d8b9158c1d72ef068b6952eff9d5da327e.jar" />
+    </item>
+    <item
+        jar="D:\Android_studio_work\QWCoverFlow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="D:\Android_studio_work\QWCoverFlow\app\build\intermediates\pre-dexed\debug\classes-ef894cd364ecb921ec9be8bf5698b73116e54676.jar" />
+    </item>
+    <item
+        jar="D:\Android_studio_work\QWCoverFlow\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="D:\Android_studio_work\QWCoverFlow\app\build\intermediates\pre-dexed\debug\classes-dcf78054cab5fa148a90964e4f61738ad1a877fe.jar" />
+    </item>
+
+</items>

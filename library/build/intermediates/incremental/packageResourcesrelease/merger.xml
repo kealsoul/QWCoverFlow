@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\Android_studio_work\QWCoverFlow\library\res"><file name="morentu" path="D:\Android_studio_work\QWCoverFlow\library\res\drawable-mdpi\morentu.png" qualifiers="mdpi" type="drawable"/><file name="refresh_failed" path="D:\Android_studio_work\QWCoverFlow\library\res\drawable-xhdpi\refresh_failed.png" qualifiers="xhdpi" type="drawable"/><file path="D:\Android_studio_work\QWCoverFlow\library\res\values\attr.xml" qualifiers=""><declare-styleable name="FancyCoverFlow">
+        <attr format="float" name="unselectedAlpha"/>
+        <attr format="float" name="unselectedSaturation"/>
+        <attr format="float" name="unselectedScale"/>
+        <attr format="integer" name="maxRotation"/>
+        <attr format="float" name="scaleDownGravity"/>
+        <attr format="integer" name="actionDistance">
+            <enum name="auto" value="2147483647"/>
+        </attr>
+    </declare-styleable></file><file path="D:\Android_studio_work\QWCoverFlow\library\res\values\strings.xml" qualifiers=""><string name="app_name">FancyCoverFlow</string></file></source><source path="D:\Android_studio_work\QWCoverFlow\library\build\generated\res\rs\release"/><source path="D:\Android_studio_work\QWCoverFlow\library\build\generated\res\resValues\release"/></dataSet><dataSet config="release"><source path="D:\Android_studio_work\QWCoverFlow\library\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="FancyCoverFlow"><attr format="float" name="unselectedAlpha"/><attr format="float" name="unselectedSaturation"/><attr format="float" name="unselectedScale"/><attr format="integer" name="maxRotation"/><attr format="float" name="scaleDownGravity"/><attr format="integer" name="actionDistance"><enum name="auto" value="2147483647"/></attr></declare-styleable></configuration></mergedItems></merger>
