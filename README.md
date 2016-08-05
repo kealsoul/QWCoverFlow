@@ -5,6 +5,7 @@ __Look__
 ![alt](https://github.com/kealsoul/QWCoverFlow/blob/master/GIF.gif)  
 __A cool search view coverflow library ,I hope you like it.__  
 __usage__  
+    test
     <at.technikum.mti.fancycoverflow.FancyCoverFlow
         android:layout_marginTop="25dp"
         android:layout_marginBottom="100dp"
