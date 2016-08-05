@@ -5,9 +5,9 @@
 ![alt](https://github.com/kealsoul/QWCoverFlow/blob/master/GIF.gif)  
 __A cool search view coverflow library ,I hope you like it.__  
 #usage 
-#(1)In xml
+__(1)In xml__
 ```java
-<LinearLayout
+        <LinearLayout
             android:id="@+id/lin"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -40,4 +40,45 @@ __A cool search view coverflow library ,I hope you like it.__
                 android:background="@drawable/mrth_dot"/>
         </LinearLayout>
 ```
+__(2)In java__
+```java
+        fancyCoverFlow = (FancyCoverFlow) findViewById(R.id.fancyCoverFlow);
+        viewGroupExampleAdapter = new ViewGroupExampleAdapter();
+        fancyCoverFlow.setAdapter(viewGroupExampleAdapter);
+
+        httpSearchInfo(pagesize + "");
+
+        fancyCoverFlow.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                UtilTools.toast(MainActivity.this,"你点击了商品");
+
+            }
+        });
+
+        fancyCoverFlow.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                UtilTools.log("监听器               " + position);
+                int i = position+1;
+
+                page.setText(i + "/" + list.size());
+                if (i == list.size()) {
+                    pagesize++;
+                    httpSearchInfo(pagesize + "");
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+```
+__Thanks:__
+            https://github.com/mcxiaoke/android-volley
+            https://github.com/SVProgressHUD/SVProgressHUD
+            https://github.com/square/picasso
+            https://github.com/davidschreiber/FancyCoverFlow
+
 
