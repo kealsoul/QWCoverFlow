@@ -1,5 +1,5 @@
 # QWCoverFlow
-趣玩CoverFlow实现
+趣玩CoverFlow实现  
 ![alt](https://github.com/kealsoul/QWCoverFlow/blob/master/icon.png)  
 __Look__
 ==
