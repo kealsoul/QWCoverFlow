@@ -25,7 +25,7 @@ __(1)In xml__
                 fcf:scaleDownGravity="0.1"
                 fcf:unselectedAlpha="0.3"
                 fcf:unselectedSaturation="0.0"
-                fcf:unselectedScale="0.8"
+                fcf:unselectedScale="0.8"           
                 />
 
             <TextView
@@ -71,7 +71,7 @@ __(2)In java__
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
-
+            
             }
         });
 ```
