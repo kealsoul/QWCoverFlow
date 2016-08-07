@@ -5,7 +5,22 @@
 ![alt](https://github.com/kealsoul/QWCoverFlow/blob/master/GIF.gif)  
 __A cool search view coverflow library ,I hope you like it.__  
 #usage 
-__(1)In xml__
+__(1)Add it in your root build.gradle at the end of repositories__
+```java
+allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+```
+__(2)Add the dependency__
+```java
+dependencies {
+	        compile 'com.github.kealsoul:QWCoverFlow:v1.0'
+	}
+```
+__(3)In xml__
 ```java
         <LinearLayout
             android:id="@+id/lin"
@@ -40,7 +55,7 @@ __(1)In xml__
                 android:background="@drawable/mrth_dot"/>
         </LinearLayout>
 ```
-__(2)In java__
+__(4)In java__
 ```java
         fancyCoverFlow = (FancyCoverFlow) findViewById(R.id.fancyCoverFlow);
         viewGroupExampleAdapter = new ViewGroupExampleAdapter();
